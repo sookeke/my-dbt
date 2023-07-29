@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: justin_raw
+    database: postgres  
+    schema: etl  
+    tables:
+      - name: justin_participants
+
+models:
+  - name: justin_participants
