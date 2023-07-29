@@ -6,6 +6,8 @@ sources:
     schema: etl  
     tables:
       - name: justin_participants
+      - name: justin_participant_profiles
 
 models:
   - name: justin_participants
+  - name: justin_participants_users
